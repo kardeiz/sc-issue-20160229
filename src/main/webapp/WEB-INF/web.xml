@@ -1,0 +1,12 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>io.github.kardeiz.example.webapp.Config</servlet-name>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>io.github.kardeiz.example.webapp.Config</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
